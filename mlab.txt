@@ -1,0 +1,43 @@
+
+#September, 2014
+SELECT connection_spec.client_geolocation.longitude AS LONGITUDE,
+  connection_spec.client_geolocation.latitude AS LATITUDE,
+	(avg(web100_log_entry.snap.HCDataOctetsOut))/(8*(sum(web100_log_entry.snap.SndLimTransRwin + web100_log_entry.snap.SndLimTransCwnd + web100_log_entry.snap.SndLimTransSnd))) AS THROUGHPUT, 
+	web100_log_entry.snap.RemAddress AS IP,
+	connection_spec.client_hostname AS NAME 
+FROM plx.google.m_lab.2014_09.all 
+WHERE IS_EXPLICITLY_DEFINED(web100_log_entry.connection_spec.remote_ip) 
+  AND IS_EXPLICITLY_DEFINED(web100_log_entry.log_time) 
+	AND project=0 
+	AND connection_spec.client_geolocation.country_code = 'IN' 
+	AND connection_spec.client_geolocation.latitude NOT BETWEEN 19.99 AND 20.01  
+	AND connection_spec.client_geolocation.longitude NOT BETWEEN 76.99 AND 77.01 
+GROUP BY IP,NAME,LONGITUDE,LATITUDE 
+ORDER BY THROUGHPUT DESC;
+
+
+
+bq query --max_rows 1000000 "SELECT connection_spec.client_geolocation.longitude AS LONGITUDE,
+  connection_spec.client_geolocation.latitude AS LATITUDE,
+(avg(web100_log_entry.snap.HCDataOctetsOut))/(8*(sum(web100_log_entry.snap.SndLimTransRwin + web100_log_entry.snap.SndLimTransCwnd + web100_log_entry.snap.SndLimTransSnd))) AS THROUGHPUT, 
+web100_log_entry.snap.RemAddress AS IP,
+connection_spec.client_hostname AS NAME 
+FROM plx.google.m_lab.2014_09.all 
+WHERE IS_EXPLICITLY_DEFINED(web100_log_entry.connection_spec.remote_ip) 
+  AND IS_EXPLICITLY_DEFINED(web100_log_entry.log_time) 
+AND project=0 
+AND connection_spec.client_geolocation.country_code = 'IN' 
+AND connection_spec.client_geolocation.latitude NOT BETWEEN 19.99 AND 20.01  
+AND connection_spec.client_geolocation.longitude NOT BETWEEN 76.99 AND 77.01 
+GROUP BY IP,NAME,LONGITUDE,LATITUDE 
+ORDER BY THROUGHPUT DESC;
+" > data/2014_09.csv
+
+
+
+
+#labels go inside the image boundaries only
+gmt pstext -R67/98/8/37 -JM6i -Ba2f1g2WS -P <<end > ex12.ps
+78 4 14 0 31 1 Maria Seton
+end
+
