@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**collage.tex
-(./collage.tex
+**collage_tikz.tex
+(./collage_tikz.tex
 LaTeX2e <2018-04-01> patch level 5
 (/usr/local/texlive/2018/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
@@ -367,8 +367,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (./collage.aux)
-\openout1 = `collage.aux'.
+))) (./collage_tikz.aux)
+\openout1 = `collage_tikz.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -445,11 +445,11 @@ e
 ))
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 9.
+(Font)              <9> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <5> on input line 11.
 Package epstopdf Info: Source file: <2009_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:42
 (epstopdf)                    size: 119884 bytes
@@ -458,7 +458,7 @@ Package epstopdf Info: Source file: <2009_09.eps>
 (epstopdf)                    size: 43170 bytes
 (epstopdf)             Command: <repstopdf --outfile=2009_09-eps-converted-to.p
 df 2009_09.eps>
-(epstopdf)             \includegraphics on input line 10.
+(epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -467,7 +467,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2009_09-eps-converted-to.pdf, id=4, 408.52625pt x 414.54875pt>
 File: 2009_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2009_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2009_09-eps-converted-to.pdf  used on input line 10.
+Package pdftex.def Info: 2009_09-eps-converted-to.pdf  used on input line 16.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 Package epstopdf Info: Source file: <2010_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:43
@@ -477,7 +477,7 @@ Package epstopdf Info: Source file: <2010_09.eps>
 (epstopdf)                    size: 45298 bytes
 (epstopdf)             Command: <repstopdf --outfile=2010_09-eps-converted-to.p
 df 2010_09.eps>
-(epstopdf)             \includegraphics on input line 11.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -486,7 +486,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2010_09-eps-converted-to.pdf, id=5, 408.52625pt x 414.54875pt>
 File: 2010_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2010_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2010_09-eps-converted-to.pdf  used on input line 11.
+Package pdftex.def Info: 2010_09-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 Package epstopdf Info: Source file: <2011_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:44
@@ -496,7 +496,7 @@ Package epstopdf Info: Source file: <2011_09.eps>
 (epstopdf)                    size: 42676 bytes
 (epstopdf)             Command: <repstopdf --outfile=2011_09-eps-converted-to.p
 df 2011_09.eps>
-(epstopdf)             \includegraphics on input line 12.
+(epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -505,7 +505,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2011_09-eps-converted-to.pdf, id=6, 408.52625pt x 414.54875pt>
 File: 2011_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2011_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2011_09-eps-converted-to.pdf  used on input line 12.
+Package pdftex.def Info: 2011_09-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 Package epstopdf Info: Source file: <2012_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:46
@@ -515,7 +515,7 @@ Package epstopdf Info: Source file: <2012_09.eps>
 (epstopdf)                    size: 41807 bytes
 (epstopdf)             Command: <repstopdf --outfile=2012_09-eps-converted-to.p
 df 2012_09.eps>
-(epstopdf)             \includegraphics on input line 14.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -524,7 +524,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2012_09-eps-converted-to.pdf, id=7, 408.52625pt x 414.54875pt>
 File: 2012_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2012_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2012_09-eps-converted-to.pdf  used on input line 14.
+Package pdftex.def Info: 2012_09-eps-converted-to.pdf  used on input line 54.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 Package epstopdf Info: Source file: <2013_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:47
@@ -534,7 +534,7 @@ Package epstopdf Info: Source file: <2013_09.eps>
 (epstopdf)                    size: 47036 bytes
 (epstopdf)             Command: <repstopdf --outfile=2013_09-eps-converted-to.p
 df 2013_09.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -543,7 +543,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2013_09-eps-converted-to.pdf, id=8, 408.52625pt x 414.54875pt>
 File: 2013_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2013_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2013_09-eps-converted-to.pdf  used on input line 15.
+Package pdftex.def Info: 2013_09-eps-converted-to.pdf  used on input line 65.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 Package epstopdf Info: Source file: <2014_09.eps>
 (epstopdf)                    date: 2018-11-05 14:59:48
@@ -553,7 +553,7 @@ Package epstopdf Info: Source file: <2014_09.eps>
 (epstopdf)                    size: 46235 bytes
 (epstopdf)             Command: <repstopdf --outfile=2014_09-eps-converted-to.p
 df 2014_09.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -562,42 +562,29 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <2014_09-eps-converted-to.pdf, id=9, 408.52625pt x 414.54875pt>
 File: 2014_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2014_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2014_09-eps-converted-to.pdf  used on input line 16.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
-Package epstopdf Info: Source file: <2009_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:42
-(epstopdf)                    size: 119884 bytes
-(epstopdf)             Output file: <2009_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:50
-(epstopdf)                    size: 43170 bytes
-(epstopdf)             Command: <repstopdf --outfile=2009_09-eps-converted-to.p
-df 2009_09.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-File: 2009_09-eps-converted-to.pdf Graphic file (type pdf)
-<use 2009_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2009_09-eps-converted-to.pdf  used on input line 26.
+Package pdftex.def Info: 2014_09-eps-converted-to.pdf  used on input line 77.
 (pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./2009_
 09-eps-converted-to.pdf> <./2010_09-eps-converted-to.pdf> <./2011_09-eps-conver
 ted-to.pdf> <./2012_09-eps-converted-to.pdf> <./2013_09-eps-converted-to.pdf> <
-./2014_09-eps-converted-to.pdf>] (./collage.aux) ) 
+./2014_09-eps-converted-to.pdf>] (./collage_tikz.aux) ) 
 Here is how much of TeX's memory you used:
- 11779 strings out of 492646
- 241404 string characters out of 6129548
- 277802 words of memory out of 5000000
- 15431 multiletter control sequences out of 15000+600000
+ 11780 strings out of 492646
+ 241466 string characters out of 6129548
+ 282802 words of memory out of 5000000
+ 15432 multiletter control sequences out of 15000+600000
  5463 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,56p,388b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on collage.pdf (1 page, 261015 bytes).
+ 55i,15n,56p,393b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on collage_tikz.pdf (1 page, 269870 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
