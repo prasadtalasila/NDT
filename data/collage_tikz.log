@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.1)  11 NOV 2018 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,11 +451,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 11.
 Package epstopdf Info: Source file: <2009_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:42
-(epstopdf)                    size: 119884 bytes
+(epstopdf)                    date: 2018-11-11 22:08:12
+(epstopdf)                    size: 119885 bytes
 (epstopdf)             Output file: <2009_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:50
-(epstopdf)                    size: 43170 bytes
+(epstopdf)                    date: 2018-11-11 22:08:52
+(epstopdf)                    size: 43054 bytes
 (epstopdf)             Command: <repstopdf --outfile=2009_09-eps-converted-to.p
 df 2009_09.eps>
 (epstopdf)             \includegraphics on input line 16.
@@ -464,17 +464,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./2009_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2009_09-eps-converted-to.pdf, id=4, 408.52625pt x 414.54875pt>
+<2009_09-eps-converted-to.pdf, id=4, 417.56pt x 431.6125pt>
 File: 2009_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2009_09-eps-converted-to.pdf>
 Package pdftex.def Info: 2009_09-eps-converted-to.pdf  used on input line 16.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 Package epstopdf Info: Source file: <2010_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:43
-(epstopdf)                    size: 115110 bytes
+(epstopdf)                    date: 2018-11-11 22:08:14
+(epstopdf)                    size: 115111 bytes
 (epstopdf)             Output file: <2010_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:51
-(epstopdf)                    size: 45298 bytes
+(epstopdf)                    date: 2018-11-11 22:08:53
+(epstopdf)                    size: 45165 bytes
 (epstopdf)             Command: <repstopdf --outfile=2010_09-eps-converted-to.p
 df 2010_09.eps>
 (epstopdf)             \includegraphics on input line 27.
@@ -483,17 +483,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./2010_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2010_09-eps-converted-to.pdf, id=5, 408.52625pt x 414.54875pt>
+<2010_09-eps-converted-to.pdf, id=5, 417.56pt x 431.6125pt>
 File: 2010_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2010_09-eps-converted-to.pdf>
 Package pdftex.def Info: 2010_09-eps-converted-to.pdf  used on input line 27.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 Package epstopdf Info: Source file: <2011_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:44
-(epstopdf)                    size: 119688 bytes
+(epstopdf)                    date: 2018-11-11 22:08:15
+(epstopdf)                    size: 119689 bytes
 (epstopdf)             Output file: <2011_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:51
-(epstopdf)                    size: 42676 bytes
+(epstopdf)                    date: 2018-11-11 22:08:53
+(epstopdf)                    size: 42539 bytes
 (epstopdf)             Command: <repstopdf --outfile=2011_09-eps-converted-to.p
 df 2011_09.eps>
 (epstopdf)             \includegraphics on input line 39.
@@ -502,68 +502,68 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./2011_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2011_09-eps-converted-to.pdf, id=6, 408.52625pt x 414.54875pt>
+<2011_09-eps-converted-to.pdf, id=6, 417.56pt x 431.6125pt>
 File: 2011_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2011_09-eps-converted-to.pdf>
 Package pdftex.def Info: 2011_09-eps-converted-to.pdf  used on input line 39.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 Package epstopdf Info: Source file: <2012_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:46
-(epstopdf)                    size: 120887 bytes
+(epstopdf)                    date: 2018-11-11 22:08:16
+(epstopdf)                    size: 120888 bytes
 (epstopdf)             Output file: <2012_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:51
-(epstopdf)                    size: 41807 bytes
+(epstopdf)                    date: 2018-11-11 22:08:54
+(epstopdf)                    size: 41678 bytes
 (epstopdf)             Command: <repstopdf --outfile=2012_09-eps-converted-to.p
 df 2012_09.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./2012_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2012_09-eps-converted-to.pdf, id=7, 408.52625pt x 414.54875pt>
+<2012_09-eps-converted-to.pdf, id=7, 417.56pt x 431.6125pt>
 File: 2012_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2012_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2012_09-eps-converted-to.pdf  used on input line 54.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+Package pdftex.def Info: 2012_09-eps-converted-to.pdf  used on input line 50.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 Package epstopdf Info: Source file: <2013_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:47
-(epstopdf)                    size: 121230 bytes
+(epstopdf)                    date: 2018-11-11 22:08:17
+(epstopdf)                    size: 121231 bytes
 (epstopdf)             Output file: <2013_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:52
-(epstopdf)                    size: 47036 bytes
+(epstopdf)                    date: 2018-11-11 22:08:54
+(epstopdf)                    size: 46952 bytes
 (epstopdf)             Command: <repstopdf --outfile=2013_09-eps-converted-to.p
 df 2013_09.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./2013_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2013_09-eps-converted-to.pdf, id=8, 408.52625pt x 414.54875pt>
+<2013_09-eps-converted-to.pdf, id=8, 417.56pt x 431.6125pt>
 File: 2013_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2013_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2013_09-eps-converted-to.pdf  used on input line 65.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+Package pdftex.def Info: 2013_09-eps-converted-to.pdf  used on input line 62.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 Package epstopdf Info: Source file: <2014_09.eps>
-(epstopdf)                    date: 2018-11-05 14:59:48
-(epstopdf)                    size: 121231 bytes
+(epstopdf)                    date: 2018-11-11 22:08:18
+(epstopdf)                    size: 121232 bytes
 (epstopdf)             Output file: <2014_09-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-05 14:59:52
-(epstopdf)                    size: 46235 bytes
+(epstopdf)                    date: 2018-11-11 22:08:54
+(epstopdf)                    size: 46153 bytes
 (epstopdf)             Command: <repstopdf --outfile=2014_09-eps-converted-to.p
 df 2014_09.eps>
-(epstopdf)             \includegraphics on input line 77.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./2014_09-eps-converted-to.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<2014_09-eps-converted-to.pdf, id=9, 408.52625pt x 414.54875pt>
+<2014_09-eps-converted-to.pdf, id=9, 417.56pt x 431.6125pt>
 File: 2014_09-eps-converted-to.pdf Graphic file (type pdf)
 <use 2014_09-eps-converted-to.pdf>
-Package pdftex.def Info: 2014_09-eps-converted-to.pdf  used on input line 77.
-(pdftex.def)             Requested size: 103.50105pt x 105.0222pt.
+Package pdftex.def Info: 2014_09-eps-converted-to.pdf  used on input line 74.
+(pdftex.def)             Requested size: 103.50105pt x 106.98083pt.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./2009_
@@ -579,12 +579,11 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,15n,56p,393b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on collage_tikz.pdf (1 page, 269870 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on collage_tikz.pdf (1 page, 261772 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
